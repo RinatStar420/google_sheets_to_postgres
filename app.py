@@ -8,7 +8,7 @@ app = Flask(__name__)
 postgres = DB(db_host, db_user, db_password)
 
 TOKEN = '' # SET TOKEN ID
-CHAT_ID = '' # SET CHAT ID
+CHAT_ID = '' # SET CHAT ID 
 
 
 @app.route('/')
