@@ -7,8 +7,8 @@ from telegram_bot.bot import send_user_message
 app = Flask(__name__)
 postgres = DB(db_host, db_user, db_password)
 
-TOKEN = '5652283433:AAHR49KAo40285go_qSPsHAGQCzJFrfC8HA'
-CHAT_ID = '210588327'
+TOKEN = '' # SET TOKEN ID
+CHAT_ID = '' # SET CHAT ID 
 
 
 @app.route('/')
